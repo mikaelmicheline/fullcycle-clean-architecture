@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+
+  fcnode:
+    build:
+      context: .
+    container_name: fcnode
+    tty: true
+    volumes:
+      - .:/usr/src/app
